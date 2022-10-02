@@ -168,6 +168,7 @@ main {
     color: #757575;
 }
 
+/* contenedor principal */
 .main-currency-table,
 .main-commissions-table {
     width: 70%;
@@ -175,10 +176,10 @@ main {
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
-  
     font-family: "Inter", sans-serif;
 }
 
+/* Estilos de los titulos  */
   .main-currency-table .currency-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -187,6 +188,7 @@ main {
     color: var(--bitcoin-orange);
   }
   
+  /* Estilo de  de titulo de contendor de la tabal  */
    .main-commissions-table .commissions-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -194,6 +196,8 @@ main {
     line-height: 2.3rem;
     color: var(--secondary-blue);
   }
+
+  /* Estilo de contnedor de la tabla  */
   .currency-table--container,
   .commissions-table--container {
     width: 90%;
@@ -204,13 +208,14 @@ main {
     /* background-color: #fff; */
     border-radius: 15px;
   } 
-    /* estilo de las tablas espacios  */
+  /* estilo de las tablas espacios las 2 tablas estan aqui  */
 
   .currency-table--container table,
   .commissions-table--container table {
     width: 100%;
     height: 100%;
   }
+  /* Estilo de las tablas esto para separar entre columnas  */
   .currency-table--container td,
   .commissions-table--container td {
     width: 50%;
@@ -222,6 +227,7 @@ main {
     background-color: var(--just-white);
   } */
 
+  /* Estilos de  bordes  */
   .currency-table--container .table__top-left,
   .commissions-table--container .table__top-left {
     border-radius: 15px 0 0 0;
