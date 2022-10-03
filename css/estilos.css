@@ -227,7 +227,7 @@ main {
     background-color: var(--just-white);
   } */
 
-  /* Estilos de  bordes  */
+  /* Estilos de  bordes de cada uno de los td fila eso se hace por los 4 bordes  */
   .currency-table--container .table__top-left,
   .commissions-table--container .table__top-left {
     border-radius: 15px 0 0 0;
@@ -244,6 +244,7 @@ main {
   .commissions-table--container .table__bottom-right {
     border-radius: 0 0 15px 0;
   }
+  /* estilo de los numero dentro de la tabla  */
   .currency-table--container .table__right,
   .commissions-table--container .table__right {
     font-size: 1.4rem;
@@ -251,8 +252,7 @@ main {
     line-height: 1.7rem;
     color: #757575;
   } */
-
-  /* estilo section 3 */
+/* Estilos de  los iconos y del span */
   .currency-table--container .up {
     display: inline-block;
     width: 15px;
@@ -263,6 +263,9 @@ main {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+    /* estilo de los iconocs de down */
+
   .currency-table--container .down {
     display: inline-block;
     width: 15px;
@@ -273,6 +276,8 @@ main {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  /* estilo de la parte que se actuliza  */
   .currency-table--date {
     width: 190px;
     height: 31px;
@@ -291,6 +296,8 @@ main {
     background-color: var(--soft-blue);
     border-radius: 8px;
   }
+
+  /* Estilo del texto de  Actualizacion y comision  */
   .currency-table--date p,
   .commissions-table--date p {
     margin: 7px;
